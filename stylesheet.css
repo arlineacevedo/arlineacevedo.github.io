@@ -5,27 +5,47 @@ body {
   padding: 0;
 }
 
-@media (max-width: 1200px) {
+nav {
+  background-color: #678d58;
+}
+
+nav img {
+  float: left;
+  width: 45%;
+}
+
+h1 {
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 600;
+  font-size: 3rem;
+}
+
+p {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 1.19rem;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+#aboutme {
+  background-color: #678d58;
+  height: auto;
+}
+#aboutme p {
+  text-align: center;
+  padding: 3% 10% 3% 10%;
+  color: white;
+}
+
+@media (max-width: 800px) {
   nav img {
     padding: 0;
     display: block;
     margin: 0 auto;
     max-height: 100%;
     max-width: 100%;
-  }
-
-  h1 {
-    font-family: "Josefin Sans", sans-serif;
-    font-weight: 600;
-    font-size: 3rem;
-  }
-
-  p {
-    font-family: "Roboto", sans-serif;
-    font-weight: 400;
-    font-size: 1.19rem;
-    margin-bottom: 0;
-    padding-bottom: 0;
+    width: 100%;
   }
 
   .header {
@@ -34,17 +54,7 @@ body {
   }
 
   #homelogo {
-    width: 18rem;
+    width: 12rem;
     margin-top: 5%;
-  }
-
-  #aboutme {
-    background-color: #678d58;
-    height: auto;
-  }
-  #aboutme p {
-    text-align: center;
-    padding: 3% 10% 3% 10%;
-    color: white;
   }
 }
