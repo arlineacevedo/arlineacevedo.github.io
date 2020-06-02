@@ -5,13 +5,29 @@ body {
   padding: 0;
 }
 
+#mainpage {
+  background: linear-gradient(white 75%, #678d58 30%);
+}
+
+.header {
+  text-align: center;
+  margin: auto;
+}
+
+#homelogo {
+  width: 16rem;
+  height: auto;
+  margin-top: 2%;
+}
+
 nav {
   background-color: #678d58;
+  margin: 0;
 }
 
 nav img {
   float: left;
-  width: 45%;
+  width: 33.33%;
 }
 
 h1 {
@@ -32,10 +48,17 @@ p {
   background-color: #678d58;
   height: auto;
 }
+
 #aboutme p {
   text-align: center;
   padding: 3% 10% 3% 10%;
   color: white;
+  margin: auto;
+  width: 25rem;
+}
+
+#bottomhalf {
+  background-color: #678d58;
 }
 
 @media (max-width: 1000px) {
@@ -48,13 +71,18 @@ p {
     width: 100%;
   }
 
-  .header {
+  #aboutme p {
     text-align: center;
-    margin: 0 10% 5% 10%;
+    padding: 3% 10% 3% 10%;
+    color: white;
+    margin: auto;
+  }
+
+  nav {
+    position: static;
   }
 
   #homelogo {
     width: 12rem;
-    margin-top: 5%;
   }
 }
