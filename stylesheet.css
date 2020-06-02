@@ -1,0 +1,50 @@
+h1 {
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 600;
+  font-size: 2rem;
+}
+
+p {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+}
+
+#homelogo {
+  justify-content: center;
+  align-items: center;
+  max-width: 10rem;
+}
+
+#aboutme {
+  text-align: center;
+  margin: auto;
+  width: 90%;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+nav img {
+  width: 100%;
+  height: auto;
+}
+
+@media (min-width: 1000px) {
+  h1 {
+    font-size: 3rem;
+  }
+  p {
+    font-size: 1.1rem;
+  }
+
+  #aboutme {
+    text-align: center;
+    margin: auto;
+    width: 50%;
+  }
+}
