@@ -15,11 +15,14 @@ p {
   margin-bottom: 1%;
 }
 
-img {
+#logo {
   display: block;
   margin: 1% auto;
   width: 13%;
   height: auto;
+}
+#logo:hover {
+  opacity: 0.75;
 }
 
 .nav {
@@ -73,7 +76,7 @@ video {
   width: 700px !important;
   height: auto !important;
   display: block;
-  margin: 0 auto;
+  margin: 0 auto 1rem auto;
 }
 
 @media (max-width: 1000px) {
