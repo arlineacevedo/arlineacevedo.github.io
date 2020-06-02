@@ -70,6 +70,7 @@ h1 {
   width: fit-content;
   height: auto;
   justify-content: space-evenly;
+  margin-bottom: 1rem;
 }
 
 video {
