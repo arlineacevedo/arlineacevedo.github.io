@@ -17,22 +17,34 @@ body {
   h1 {
     font-family: "Josefin Sans", sans-serif;
     font-weight: 600;
-    font-size: 4rem;
+    font-size: 3rem;
   }
 
   p {
     font-family: "Roboto", sans-serif;
     font-weight: 400;
-    font-size: 2rem;
+    font-size: 1rem;
+    margin-bottom: 0;
+    padding-bottom: 0;
   }
 
-  #aboutme {
+  .header {
     text-align: center;
     margin: 0 10% 5% 10%;
   }
 
   #homelogo {
-    width: 20rem;
+    width: 18rem;
     margin-top: 5%;
+  }
+
+  #aboutme {
+    background-color: #678d58;
+    height: auto;
+  }
+  #aboutme p {
+    text-align: center;
+    padding: 3% 10% 3% 10%;
+    color: white;
   }
 }
