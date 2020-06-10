@@ -3,10 +3,6 @@
   padding: 0;
 }
 
-.picrow a img {
-  width: 100%;
-}
-
 body {
   font-family: "Roboto", sans-serif;
 }
@@ -73,6 +69,15 @@ h1 {
   color: #678d58;
 }
 
+h2 {
+  text-align: center;
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 400;
+  font-size: 2.5rem;
+  margin-top: 2rem;
+  color: #232523;
+}
+
 #aboutme {
   margin-bottom: 0%;
 }
@@ -137,7 +142,7 @@ h1 {
 
 .picrow img {
   width: 33.33%;
-  height: auto;
+  height: 100%;
 }
 
 .picrow p {
@@ -146,8 +151,16 @@ h1 {
   padding-top: 2%;
 }
 
+.picrow a img {
+  width: 100%;
+}
+
+.picrow a img:hover {
+  opacity: 0.75;
+}
+
 #queen {
-  font-size: 3rem;
+  font-size: 2.5rem;
   font-family: "Josefin Sans", sans-serif;
   font-weight: 600;
   color: #678d58;
@@ -158,7 +171,7 @@ h1 {
 }
 
 #prand {
-  font-size: 3rem;
+  font-size: 2rem;
   font-family: "Josefin Sans", sans-serif;
   font-weight: 600;
   color: #678d58;
@@ -169,7 +182,7 @@ h1 {
 }
 
 .container #title {
-  font-size: 3rem;
+  font-size: 2.5rem;
   font-family: "Josefin Sans", sans-serif;
   font-weight: 600;
   color: #678d58;
