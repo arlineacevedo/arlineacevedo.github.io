@@ -259,6 +259,7 @@ video {
   }
   h1 {
     font-size: 5rem;
+    padding: 2rem;
   }
 
   .description {
@@ -290,6 +291,7 @@ video {
     text-align: center;
     padding-top: 0;
     margin-bottom: 5%;
+    font-size: 3rem;
   }
 
   .container p {
@@ -297,7 +299,7 @@ video {
     width: 90%;
   }
   #stime {
-    width: 90%;
+    width: 80%;
   }
   #prand {
     font-size: 4rem;
@@ -308,6 +310,10 @@ video {
   }
   #queen {
     font-size: 4rem;
+  }
+
+  #last {
+    margin-bottom: 15rem;
   }
 }
 
@@ -361,6 +367,7 @@ video {
 
   h1 {
     font-size: 5rem;
+    padding: 2rem;
   }
 
   .description {
@@ -376,7 +383,7 @@ video {
   .container p {
     text-align: center;
     width: 90%;
-    font-size: 1.5rem;
+    font-size: 4rem;
   }
 
   .picrow {
@@ -395,13 +402,13 @@ video {
 
   .picrow p {
     width: 80%;
-    font-size: 1.5rem;
+    font-size: 3rem;
     text-align: center;
     padding-top: 0;
     margin-bottom: 5%;
   }
   #stime {
-    width: 90%;
+    width: 80%;
   }
 
   #prand {
@@ -413,5 +420,8 @@ video {
   }
   #queen {
     font-size: 4rem;
+  }
+  #last {
+    margin-bottom: 15rem;
   }
 }
