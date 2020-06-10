@@ -213,6 +213,7 @@ video {
 
 @media (max-width: 1030px) {
   p {
+    margin: 0 auto 1% auto;
     font-size: 3rem;
     width: 90%;
   }
@@ -274,7 +275,7 @@ video {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    margin: 3rem 0;
+    margin: 5rem 0;
     padding: 0;
     width: auto;
   }
@@ -295,6 +296,19 @@ video {
     text-align: center;
     width: 90%;
   }
+  #stime {
+    width: 90%;
+  }
+  #prand {
+    font-size: 4rem;
+  }
+
+  .container #title {
+    font-size: 4rem;
+  }
+  #queen {
+    font-size: 4rem;
+  }
 }
 
 /*small*/
@@ -302,6 +316,7 @@ video {
 @media (max-width: 700px) {
   p {
     font-size: 3rem;
+    margin: 0 auto 1% auto;
   }
   .container {
     flex-direction: column;
@@ -384,5 +399,19 @@ video {
     text-align: center;
     padding-top: 0;
     margin-bottom: 5%;
+  }
+  #stime {
+    width: 90%;
+  }
+
+  #prand {
+    font-size: 4rem;
+  }
+
+  .container #title {
+    font-size: 4rem;
+  }
+  #queen {
+    font-size: 4rem;
   }
 }
