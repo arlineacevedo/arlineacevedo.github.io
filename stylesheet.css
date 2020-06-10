@@ -82,14 +82,43 @@ h1 {
 .container {
   display: flex;
   flex-wrap: wrap;
+  flex-direction: row;
+  flex-shrink: 0;
   justify-content: space-evenly;
   align-items: stretch;
+  margin-bottom: 2rem;
 }
-.container img {
-  width: fit-content;
+
+.container a {
+  color: #4f6d44;
+  text-decoration: none;
+}
+.container a:hover {
+  text-decoration: underline;
+}
+
+.project {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: stretch;
+  width: 33%;
+  margin: 1rem 0;
+  padding: 1rem 0;
+  border-bottom: 5px dotted #678d58;
+}
+
+.project img {
+  width: 99%;
   height: auto;
   justify-content: space-evenly;
   margin-bottom: 1rem;
+}
+
+.picrow {
+  display: flex;
+  width: 33.33%;
+  height: auto;
 }
 
 video {
@@ -102,6 +131,7 @@ video {
 @media (max-width: 1030px) {
   .container {
     flex-direction: column;
+    width: 100%;
   }
 
   #logo {
@@ -146,14 +176,18 @@ video {
   .description {
     color: #232523;
     background: none;
-    border-top: 5px dotted #678d58;
-    border-bottom: 5px dotted #678d58;
+    border-top: 5px solid #678d58;
+    border-bottom: 5px solid #678d58;
+  }
+  .project {
+    width: 100%;
   }
 }
 
 @media (max-width: 700px) {
   .container {
     flex-direction: column;
+    width: 100%;
   }
 
   #logo {
@@ -199,7 +233,10 @@ video {
   .description {
     color: #232523;
     background: none;
-    border-top: 5px dotted #678d58;
-    border-bottom: 5px dotted #678d58;
+    border-top: 5px solid #678d58;
+    border-bottom: 5px solid #678d58;
+  }
+  .project {
+    width: 100%;
   }
 }
