@@ -3,6 +3,10 @@
   padding: 0;
 }
 
+.picrow a img {
+  width: 100%;
+}
+
 body {
   font-family: "Roboto", sans-serif;
 }
@@ -10,7 +14,7 @@ body {
 p {
   font-family: "Roboto", sans-serif;
   font-weight: 400;
-  font-size: 1.19rem;
+  font-size: 1.5rem;
   text-align: center;
   margin: 0 3rem 1% 3rem;
 }
@@ -85,7 +89,7 @@ h1 {
   flex-direction: row;
   flex-shrink: 0;
   justify-content: space-evenly;
-  align-items: stretch;
+  align-content: center;
   margin-bottom: 2rem;
 }
 
@@ -93,8 +97,13 @@ h1 {
   color: #4f6d44;
   text-decoration: none;
 }
+
 .container a:hover {
   text-decoration: underline;
+}
+
+#stime {
+  width: 40%;
 }
 
 .project {
@@ -117,18 +126,84 @@ h1 {
 
 .picrow {
   display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  margin: 1rem 0;
+  padding: 0;
+  width: auto;
+  justify-content: center;
+  align-content: center;
+}
+
+.picrow img {
   width: 33.33%;
   height: auto;
 }
 
-video {
-  width: 700px !important;
-  height: auto !important;
-  display: block;
-  margin: 0 auto 1rem auto;
+.picrow p {
+  width: 20%;
+  text-align: right;
+  padding-top: 2%;
 }
 
+#queen {
+  font-size: 3rem;
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 600;
+  color: #678d58;
+}
+
+#queen:hover {
+  text-decoration: none;
+}
+
+#prand {
+  font-size: 3rem;
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 600;
+  color: #678d58;
+}
+
+#prand:hover {
+  text-decoration: none;
+}
+
+.container #title {
+  font-size: 3rem;
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 600;
+  color: #678d58;
+}
+
+#title:hover {
+  text-decoration: none;
+}
+
+.container p {
+  text-align: left;
+  padding: 2% 2% 0 0;
+}
+
+video {
+  width: 50% !important;
+  height: auto !important;
+  display: block;
+  margin: 0 1rem 1rem auto;
+}
+
+.border {
+  border-top: dotted 5px #678d58;
+  margin: 1rem 0;
+}
+
+/*mid*/
+
 @media (max-width: 1030px) {
+  p {
+    font-size: 2rem;
+    width: 90%;
+  }
+
   .container {
     flex-direction: column;
     width: 100%;
@@ -145,7 +220,6 @@ video {
   }
 
   video {
-    display: block;
     margin: 1rem auto;
     width: 100% !important;
     height: auto !important;
@@ -182,9 +256,40 @@ video {
   .project {
     width: 100%;
   }
+
+  .picrow {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: 3rem 0;
+    padding: 0;
+    width: auto;
+  }
+
+  .picrow img {
+    width: 100%;
+    height: auto;
+  }
+
+  .picrow p {
+    width: 80%;
+    text-align: center;
+    padding-top: 0;
+    margin-bottom: 5%;
+  }
+
+  .container p {
+    text-align: center;
+    width: 90%;
+  }
 }
 
+/*small*/
+
 @media (max-width: 700px) {
+  p {
+    font-size: 1.5rem;
+  }
   .container {
     flex-direction: column;
     width: 100%;
@@ -207,7 +312,7 @@ video {
     height: auto !important;
   }
   .nav {
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     border-top: none;
     background-color: #678d58;
   }
@@ -238,5 +343,33 @@ video {
   }
   .project {
     width: 100%;
+  }
+
+  .container p {
+    text-align: center;
+    width: 90%;
+    font-size: 1.5rem;
+  }
+
+  .picrow {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: 3rem 0;
+    padding: 0;
+    width: auto;
+  }
+
+  .picrow img {
+    width: 100%;
+    height: auto;
+  }
+
+  .picrow p {
+    width: 80%;
+    font-size: 1.5rem;
+    text-align: center;
+    padding-top: 0;
+    margin-bottom: 5%;
   }
 }
